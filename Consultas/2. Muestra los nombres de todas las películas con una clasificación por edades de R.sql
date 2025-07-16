@@ -4,4 +4,4 @@ SELECT film_id, title, rating
 FROM film
 WHERE rating = 'R';
 
---195 peliculas con la clasificación 'R'.
+-- 195 peliculas con la clasificación 'R'.
