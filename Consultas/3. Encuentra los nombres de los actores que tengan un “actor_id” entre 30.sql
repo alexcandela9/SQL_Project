@@ -1,4 +1,4 @@
---3. Encuentra los nombres de los actores que tengan un “actor_id” entre 30 y 40.
+-- 3. Encuentra los nombres de los actores que tengan un “actor_id” entre 30 y 40.
 
 SELECT actor_id, first_name, last_name
 

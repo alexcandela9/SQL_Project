@@ -1,4 +1,4 @@
---5. Ordena las películas por duración de forma ascendente.
+-- 5. Ordena las películas por duración de forma ascendente.
 
 SELECT title, length
 
