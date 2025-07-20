@@ -11,5 +11,5 @@ GROUP BY a.actor_id
 
 ORDER BY numero_peliculas DESC;
 
-/** Se obtienen loso 200 actores y el numero de peliculas en las que han actuado,
+/** Se obtienen los 200 actores y el numero de peliculas en las que han actuado,
 desde el actor/actriz con el minimo de peliculas realizadas, 14, hasta el que mas con 42. **/
