@@ -15,3 +15,5 @@ LIMIT 1;
 
 -- 2576.74 es el coste de alquiler antepenultimo dia que es el 2005-08-22.
 
+/** La tabla payment contiene 5 registros con rental_id =1,
+de los cuales 4 el customer_id de la tabla payment no coincide con el customer_id de la tabla rental.

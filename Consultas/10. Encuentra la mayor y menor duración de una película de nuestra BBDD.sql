@@ -6,6 +6,8 @@ FROM film;
 
 -- La duración maxima es 185 y la mínima 46.
 
+-- Con la ayuda de chat GPT (UNION ALL):
+
 -- Si quisieramos saber que peliculas tienen estas duraciones:
 
 (

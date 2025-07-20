@@ -5,7 +5,7 @@ SELECT film.film_id, film.title, actor.actor_id, actor.first_name, actor.last_na
 FROM film
 
 INNER JOIN film_actor
-ON film.film_id=film_actor.film_id
+ON film.film_id=film_actor.film_id  -- se necesita de esta tabla intermedia ya que la relacion es de muchos:muchos
 
 INNER JOIN actor
 ON film_actor.actor_id=actor.actor_id
