@@ -18,7 +18,7 @@ SELECT  AVG(DATE(return_date) - DATE(rental_date)) AS duracion_alquiler FROM ren
 
 -- Podemos ver que el resultado es el mismo a pesar de haber 183 registros nulos respecto a fecha de devolucion.
 
-/** Otra opcion es suponer que el campo rental_duration es el tiempo de aluiler por pelicula,
+/** Otra opcion es suponer que el campo rental_duration es el tiempo de alquiler por pelicula,
 a pesar de no tener mucho sentido diferentes tiempos de alquiler en funcion de la pelicula. **/
 
 SELECT AVG(rental_duration) FROM film;
