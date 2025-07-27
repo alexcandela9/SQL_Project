@@ -16,7 +16,7 @@ ON i.inventory_id=r.inventory_id
 
 -- WHERE r.rental_id IS NULL -- hay 43 registros de peliculas sin registro de alquiler
 -- WHERE i.inventory_id IS NULL -- hay 42 registros de peliculas sin registro de inventario y sin registro de alquiler
--- hay 1 registro sin registro de alquiler pero sin con registro de inventario
+-- hay 1 registro sin registro de alquiler pero con registro de inventario en la tabla inventario, peron sin inventario en la tabla rental
 ;
 
 -- Se obtienen todas las peliculas con sus registros de alquiler, incluyendo las que no lo tienen tambien.
